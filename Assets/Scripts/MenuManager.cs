@@ -5,7 +5,7 @@ using System.IO;
 
 public class MenuManager : MonoBehaviour
 {
-    //Adapted from "Unity Game Development Cookbook" by O'Reilly
+    //Adapted from "Unity Game Development Cookbook", published by O'Reilly
     [SerializeField] List<Menu> menus = new List<Menu>();
     static public bool startFromTimeTrial;
     void Start()
